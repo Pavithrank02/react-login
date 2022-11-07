@@ -11,17 +11,25 @@
 } */
 
 .page {
+  position: absolute;
   justify-content: center;
-  margin: 20px;
-  margin-left: 40px;
-
+  left: 25%;
+  top: 120px;
+  right: 25%;
+  background-color: rgb(57, 167, 130);
+  height: 50vh;
 }
 .page > p{
+  margin-top: 20px;
   font-size: 20px;
   font-weight: 400;
 }
 .page > .MuiSvgIcon-root{
-  padding: 30px;
-  margin-left: 90px;
-  font-size: 64px;
+  padding: 20px;
+  margin-left: 80px;
+  margin-bottom: -40px;
+}
+
+.page > input{
+  margin-top: -40px;
 }

@@ -39,6 +39,7 @@
 .app {
   display: flex;
   place-items: center;
+  flex-wrap: wrap;
   flex-direction: column;
   background-color: #8f7474;
   height: 100vh;
