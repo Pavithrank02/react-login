@@ -1,0 +1,15 @@
+.app__header {
+  display: flex;
+  background-color: aqua;
+  height: 15vh;
+  width: 90vw;
+  position: relative;
+}
+.app__headerSignIn {
+
+  position: absolute;
+  left: 25vh;
+
+  background-color: rgb(57, 167, 130);
+  height: 50vh;
+}
